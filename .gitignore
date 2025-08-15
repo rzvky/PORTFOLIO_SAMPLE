@@ -1,0 +1,26 @@
+# Node / React Frontend
+frontend/node_modules
+frontend/build
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage
+
+# Java / Maven Backend
+backend/target
+backend/.mvn
+backend/pom.xml.tag
+backend/pom.xml.releaseBackup
+backend/pom.xml.versionsBackup
+backend/release.properties
+backend/dependency-reduced-pom.xml
+backend/build-log.txt
+backend/hs_err_pid*
+
+# IDE and OS files
+.vscode
+.idea
+*.iml
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
