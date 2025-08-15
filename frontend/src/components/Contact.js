@@ -4,11 +4,8 @@ const Contact = () => {
     return (
         <section id="contact" className="section">
             <h2>Contact Me</h2>
-            {/* - Add the data-netlify="true" attribute to the form.
-              - Add a hidden input to let Netlify identify the form.
-              - The "action" attribute redirects the user after submission.
-            */}
-            <form name="contact" method="POST" data-netlify="true" action="/#">
+            {/* The action attribute now points to our new success page */}
+            <form name="contact" method="POST" data-netlify="true" action="/success.html">
                 <input type="hidden" name="form-name" value="contact" />
                 
                 <input type="text" name="name" placeholder="Your Name" required />
