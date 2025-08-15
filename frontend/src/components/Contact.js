@@ -20,14 +20,15 @@ const Contact = () => {
     };
 
     // If the form has been submitted, show the success message
-    if (submitted) {
-        return (
-            <section id="contact" className="section">
-                <h2>Thank You!</h2>
-                <p>Your message has been sent. I will get back to you shortly.</p>
-            </section>
-        );
-    }
+if (submitted) {
+    return (
+        // Add the "success-message" class here
+        <section id="contact" className="section success-message">
+            <h2>Thank You!</h2>
+            <p>Your message has been sent. I will get back to you shortly.</p>
+        </section>
+    );
+}
 
     // Otherwise, show the form
     return (
